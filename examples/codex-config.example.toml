@@ -1,0 +1,18 @@
+[model]
+model = "gpt-5.5"
+reasoning = "high"
+
+[approval]
+policy = "on-request"
+
+[sandbox]
+mode = "workspace-write"
+
+[providers.openrouter]
+base_url = "https://openrouter.ai/api/v1"
+api_key_env = "OPENROUTER_API_KEY"
+
+# Per usare DeepSeek via OpenRouter:
+# [model]
+# provider = "openrouter"
+# name = "deepseek/deepseek-v4-flash"

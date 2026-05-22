@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+uv.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+
+# Logs
+*.log
+logs/*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Local settings
+.claude/settings.local.json
+**/settings.local.json
+
+# Skill builder catalog (user-generated, rebuild with sync)
+skills.json
+skills.json.bak
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Documentation build
+_build/
+.doctrees/
+
+# OS
+Thumbs.db
+
+# Auto-generated manifests with absolute paths — machine-specific
+commands.json
+manifests/
+run-sheet.md
+
+# Claude Code working directory (demo artifacts)
+.claude/
+
